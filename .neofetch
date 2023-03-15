@@ -64,30 +64,7 @@ cl8="${black}"
 cl9="${bgyellow}"
 cl10="${bgwhite}"
 
-block_width=4
-block_height=1
-
-bar_char_elapsed="-"
-bar_char_total="="
-bar_border="on"
-bar_length=15
-bar_color_elapsed="distro"
-bar_color_total="distro"
-
-cpu_display="on"
-memory_display="on"
-battery_display="on"
-disk_display="on"
-
 image_backend="ascii" 
 image_source=$(cat ~/repositories/dot-files/ascii/turtle)
 
-# ascii_distro="ubuntu_small"
-# ascii_bold="on"
-
-gap=1
-
-yoffset=0
-xoffset=0
-
-stdout="off"
+ascii_bold="on"
