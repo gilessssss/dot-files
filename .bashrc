@@ -4,7 +4,7 @@ export PS1="\[\e]0;\w\a\]\[\e[1;35m\]\u: \[\e[37m\]\w\[\e[0m\] \[$(tput sgr0)\]\
 # Aliases
 alias ll='ls -la'
 alias ass3-start='npx http-server frontend -c 1 -p 8080'
-alias gg='bash ~/repositories/dot-files/scripts/gitSync.sh'
+alias git-sync='bash ~/repositories/dot-files/scripts/git-sync.sh'
 
 # Startup
 neofetch
